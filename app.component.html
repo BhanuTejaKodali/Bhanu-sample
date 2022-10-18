@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+<style>
+h1{
+color:red;
+}
+</style>
+<h1>Job Application</h1>
+</head>
+<body style="background:yellow;">
+<form>
+First Name : <input type = "text" name="fname" value="First Name" > <br>
+Last Name : <input type = "text" name="lname" value="Last Name" > <br>
+Father Name : <input type = "text" name = "fatherName"> <br>
+<h3 style="color:red;">Select your skills</h3>
+<input type = "checkbox" name="Btech" value = "on"> Java
+<input type = "checkbox" name="Inter" value = "on"> Python
+<input type = "checkbox" name="Btech" value = "on"> Ruby
+<input type = "checkbox" name="Inter" value = "on"> C  <br>
+<input type = "checkbox" name="Inter" value = "on"> C++
+<input type = "checkbox" name="Btech" value = "on"> JavaScript
+<input type = "checkbox" name="Inter" value = "on"> Scala   <br><br>
+<h3 style="color:red;">Select your Gender</h3>
+<input type = "radio" name = "male" value="male">Male
+<input type = "radio" name = "male" value="male">Female <br><br>
+<h3 style="color:red;">Select your Highest Education Background</h3>
+<select name="dropdown">
+<option value="B.Tech">Bachelors of Technology</option>
+<option value="Degree" selected>Bachelors Degree</option>
+<option value="Intermediate">Inter</option>
+<option value="ssc">SSC</option>
+</select> <br><br>
+<h3>File Upload :</h3>
+<input type = "file" name="fileupload"><br><br>
+
+Please leave your comments: <br><br>
+<textarea rows = "5" cols = "50" name="description">
+Enter comments here ...
+</textarea> <br><br>
+<input type = "submit" name="submit" value="Register">
+<input type = "reset" name="reset" value="Reset">
+<input type = "button" name="ok" value="OK">
+</form>
+</body>
+</html>
